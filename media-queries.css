@@ -50,7 +50,7 @@ body{
 }
 @media only screen and (max-width:767px) {
 
-   /* html,
+   html,
     body {
         font-size: 10px;
     }
@@ -64,8 +64,8 @@ body{
     .testimonial-head,
     .contact-heading,footer {
         margin-top: 60px;
-    }*/
-        .about-img {
+    }
+       /* .about-img {
         padding: 0;
     }
 
@@ -108,7 +108,7 @@ body{
         width: 80%;
         margin-left: 10%;
 
-    }
+    }*/
 
 
 
