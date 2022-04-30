@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/4856a4f056.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -8,6 +9,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="suprc.png">
     <link rel="stylesheet" href="./3party/fluid.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media-queries.css">
     <title>SuprC</title>
 </head>
 <body>
@@ -173,6 +175,155 @@
         </div>
 
     </section>
+
+    <section class="packages-section">
+           <div class="row">
+               <h2 class="packages-heading">Most Popular Packages</h2>
+           </div>
+           <div class="row">
+               <div class="col span_1_of_3">
+                   <div class="package-box">
+                        <div>
+                            <h4 class="package-head">Starter</h4>
+                            <p class="package-price">₹500 <span>3 months</span></p>
+                            <p class="package-para">Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet.adipisicing elit. Ipsam, s</p>
+                        </div>
+                        <div>
+                            <ul>
+                                <li><i class="fa-solid fa-check small-icon"></i>Lorem ipsum dolor sit amet.</li>
+                                <li><i class="fa-solid fa-check small-icon"></i>Lorem ipsum dolor sit amet.</li>
+                                <li><i class="fa-solid fa-check small-icon"></i>Lorem ipsum dolor sit amet.</li>
+                                <li><i class="fa-solid fa-check small-icon"></i>Lorem ipsum dolor sit amet.</li>
+                                <li><i class="fa-solid fa-check small-icon"></i>Lorem ipsum dolor sit amet.</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <a href="#" class="btn btn-full">Sign Up Now!</a>
+                       </div>
+                   </div>
+               </div>
+               <div class="col span_1_of_3">
+                   <div class="package-box">
+                        <div>
+                            <h4 class="package-head">Business</h4>
+                            <p class="package-price">₹1500 <span>6 months</span></p>
+                            <p class="package-para">Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet.adipisicing elit. Ipsam, s</p>
+                        </div>
+                        <div>
+                            <ul>
+                                <li><i class="fa-solid fa-check small-icon"></i>Lorem ipsum dolor sit amet.</li>
+                                <li><i class="fa-solid fa-check small-icon"></i>Lorem ipsum dolor sit amet.</li>
+                                <li><i class="fa-solid fa-check small-icon"></i>Lorem ipsum dolor sit amet.</li>
+                                <li><i class="fa-solid fa-check small-icon"></i>Lorem ipsum dolor sit amet.</li>
+                                <li><i class="fa-solid fa-check small-icon"></i>Lorem ipsum dolor sit amet.</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <a href="#" class="btn btn-full">Sign Up Now!</a>
+                       </div>
+                   </div>
+               </div>
+               <div class="col span_1_of_3">
+                   <div class="package-box">
+                        <div>
+                            <h4 class="package-head">Enterprise</h4>
+                            <p class="package-price">₹2500 <span>12 months</span></p>
+                            <p class="package-para">Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet.adipisicing elit. Ipsam, s</p>
+                        </div>
+                        <div>
+                            <ul>
+                                <li><i class="fa-solid fa-check small-icon"></i>Lorem ipsum dolor sit amet.</li>
+                                <li><i class="fa-solid fa-check small-icon"></i>Lorem ipsum dolor sit amet.</li>
+                                <li><i class="fa-solid fa-check small-icon"></i>Lorem ipsum dolor sit amet.</li>
+                                <li><i class="fa-solid fa-check small-icon"></i>Lorem ipsum dolor sit amet.</li>
+                                <li><i class="fa-solid fa-check small-icon"></i>Lorem ipsum dolor sit amet.</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <a href="#" class="btn btn-full">Sign Up Now!</a>
+                       </div>
+                   </div>
+               </div>
+           </div>
+    </section>
+
+    <section class="contact-section">
+        <div class="row">
+            <h2 class="contact-heading">Contact Us</h2>
+        </div>
+        <div class="row">
+            <form method="post" action="#" class="contact-form">
+                <div class="row">
+                    <div class="col span_1_of_3 contact-label">
+                        <label for="name">Name</label>
+                    </div>
+                    <div class="col span_2_of_3 ">
+                        <input type="text" name="name" id="name" placeholder="Your Name" required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col span_1_of_3 contact-label">
+                        <label for="email">E-Mail</label>
+                    </div>
+                    <div class="col span_2_of_3">
+                        <input type="text" name="email" id="email" placeholder="Your E-Mail" required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col span_1_of_3 contact-label">
+                        <label for="newsletter">News Letter</label>
+                    </div>
+                    <div class="col span_2_of_3">
+                        <input type="checkbox" name="newsletter" id="newsletter" checked>Yes
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col span_1_of_3 contact-label">
+                        <label for="message">FeedBack</label>
+                    </div>
+                    <div class="col span_2_of_3">
+                        <textarea name="message" id="message" placeholder="Your Message" required></textarea>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col span_1_of_3">
+                        &nbsp;
+                    </div>
+                    <div class="col span_2_of_3">
+                        <input type="submit" value="send">
+                        <!-- <a href="#" class="btn btn-full">Send</a> -->
+                    </div>
+                </div>
+            </form>
+        </div>
+
+    </section>
+
+<footer>
+    <div class="row">
+        <div class="col span_1_of_2">
+            <ul class="footer-nav">
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Help&Support</a></li>
+                <li><a href="#">ios</a></li>
+                <li><a href="#">Android</a></li>
+            </ul>
+        </div>
+        <div class="col span_1_of_2">
+            <ul class="social-links">
+                <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-google-plus-g"></i></a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="row">
+        <p>Lorem ipsum dolor sit amet consectetlorem3ur, adipisicifsdafng elit. Omnis cum nobis quis su <br>
+        Lorem ipsum dolor sit amet consecteturfdsfdsaasfsd.</p>
+    </div>
+</footer>
     
 </body>
 </html>
